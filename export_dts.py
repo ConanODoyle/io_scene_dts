@@ -395,7 +395,7 @@ def save(operator, context, filepath,
          select_marker=False,
          blank_material=True,
          generate_texture="disabled",
-         raw_colors = True,
+         raw_colors = False,
          apply_modifiers=True,
          debug_report=False):
     print("Exporting scene to DTS")
